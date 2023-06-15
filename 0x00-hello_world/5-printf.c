@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program that prints exactly with proper grammar, but the outcome is a piece of art using prinf
+ * main - a program that prints exactly with proper grammar, but the outcome is a piece of art using printf
  * Return: 0
  */
 int main(void)
