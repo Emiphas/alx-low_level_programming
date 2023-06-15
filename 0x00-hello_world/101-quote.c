@@ -2,7 +2,7 @@
 /**
  * main - C program that prints exactly and that piece of art is useful
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
