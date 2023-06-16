@@ -5,22 +5,14 @@
  */
 int main(void)
 {
-	char c;
+	char low;
 
-	c = 'a';
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
 
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	c = 'A';
-
-	while
-		(c <= 'Z') {
-			putchar(c);
-			c++;
-		}
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
 	putchar('\n');
+
 	return (0);
 }
