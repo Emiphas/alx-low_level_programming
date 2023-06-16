@@ -3,20 +3,24 @@
  * main - Entry point
  * Return: always 0 (success)
  */
-
 int main(void)
 {
 	char c;
 
-	c = 'a';
+	char d;
 
-	while(c <= 'z' || c <= 'Z'){
-		if(c <= 'z'){
+	c = 'a';
+	c = 'A';
+	while
+		(c <= 'z') {
 			putchar(c);
-		} else{
-			putchar(c + 'a' - 'A');
+			c++
 		}
-		c++;
-	}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++
+		}
+	putchar('\n');
 	return (0);
 }
