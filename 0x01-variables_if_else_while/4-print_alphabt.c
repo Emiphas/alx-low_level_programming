@@ -5,22 +5,18 @@
  */
 int main(void)
 {
-	char c;
+	int n = 97;
 
-	c = 'a';
-
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
+	while (n <= 122)
+	{
+		if (n == 101 || n == 133)
+		{
+			n++;
+			continue;
 		}
-	c = 'A';
-
-	while
-		(c <= 'Z') {
-			putchar(c);
-			c++;
-		}
+		putchar(n);
+		n++;
+	}
 	putchar('\n');
 	return (0);
 }
