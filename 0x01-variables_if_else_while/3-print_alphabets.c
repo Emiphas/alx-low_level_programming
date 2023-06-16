@@ -10,12 +10,13 @@ int main(void)
 
 	c = 'a';
 
-
-	while
-		(c <= 'z' || c <= 'Z' ) {
+	while(c <= 'z' || c <= 'Z'){
+		if(c <= 'z'){
 			putchar(c);
-			c++;
+		} else{
+			putchar(c + 'a' - 'A');
 		}
-	putchar('\n');
+		c++;
+	}
 	return (0);
 }
