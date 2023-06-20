@@ -2,6 +2,9 @@
 
 /**
  * main - prints alphabet in lowercase
+ *
+ *description: function prints the alphabet, in lowercase
+ *
  * Return: void
  */
 void print_alphabet(void)
