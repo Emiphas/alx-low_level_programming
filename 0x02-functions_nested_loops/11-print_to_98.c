@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - function that prints all natural numbers from n to 98, followed by a new line
+ * print_to_98 - prints all natural numbers from n to 98, followed by a new line
  * @n: number to start from
  * Return: always 0
  */
