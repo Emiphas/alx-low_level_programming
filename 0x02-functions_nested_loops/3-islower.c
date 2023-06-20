@@ -4,7 +4,7 @@
  *
  * description: checks for lowercase character.
  *
- * @param c - this is the character to be checked
+ * @c:  this is the character to be checked
  * Return: 1 for lowercase character or 0 for something else
  */
 
