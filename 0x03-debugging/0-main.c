@@ -3,7 +3,7 @@
 /**
 * main - Test function for positive or negative
 *
-* positive_or_negative - Determines if a number is positive or negative
+* positive_or_negative: Determines if a number is positive or negative
 *
 * Return: 0
 */
